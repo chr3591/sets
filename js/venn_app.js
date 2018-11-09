@@ -1,5 +1,4 @@
 angular.module("vennApp",[]).controller("vennCtrl", function setController($scope){
-	console.log("Controller loaded");
 	var m1 = false, m2 = false, m3 = false, m4 = false, m5 = false, m6 =false, m7 = false, m8 = false, m9 = false, m10 = false, m11 = false, m12 = false, m13 =false, m14 = false, m15 = false;
 	$scope.rect = true;
 	$scope.four = false;
@@ -72,15 +71,12 @@ angular.module("vennApp",[]).controller("vennCtrl", function setController($scop
 	var sets = 0;
 	if (set_percentage < 6){
 		sets = 2;
-		console.log("Sets: " + sets + " In %: " + set_percentage);
 	}
 	else if (set_percentage > 5 && set_percentage < 81){
 		sets = 3;
-		console.log("Sets: " + sets + " In %: " + set_percentage);
 	}
 	else {
 		sets = 4;
-		console.log("Sets: " + sets + " In %: " + set_percentage);
 	}
 	
 	//Klammerwahrscheinlichkeit
@@ -128,7 +124,6 @@ angular.module("vennApp",[]).controller("vennCtrl", function setController($scop
 	$scope.exercise = ex;
 	
 	// Ergebnisermittlung für 2 Mengen
-	console.log("Ergebnisermittlung läuft");
 	if (sets == 2){
 		if (operators[1] == "∖"){
 			m1 = true;
@@ -145,7 +140,6 @@ angular.module("vennApp",[]).controller("vennCtrl", function setController($scop
 	// Ergebnisermittlung für 3 Mengen
 	else if (sets == 3){
 		if (operators[1] == "∖"){
-			console.log("Differenz");
 			m1 = true;
 			m5 = true;
 			if (operators[2] == "∖"){
@@ -168,7 +162,6 @@ angular.module("vennApp",[]).controller("vennCtrl", function setController($scop
 			}
 		}
 		else if (operators[1] == "∪"){
-			console.log("Union");
 			m1 = true;
 			m2 = true;
 			m4 = true;
@@ -199,7 +192,6 @@ angular.module("vennApp",[]).controller("vennCtrl", function setController($scop
 			}
 		}
 		else if (operators[1] == "∩"){
-			console.log("Schnittmenge");
 			m4 = true;
 			m7 = true;
 			if (operators[2] == "∖"){
@@ -434,22 +426,18 @@ angular.module("vennApp",[]).controller("vennCtrl", function setController($scop
 	$scope.solutionCheck = function(){
 		var solArray = [m1,m2,m3,m4,m5,m6,m7];
 		if (solArray.join('') == answerArrayR.join('')){
-		console.log("Eingabe ist richtig!");
 		$scope.ans_right = true;
 		$scope.ans_wrong = false;
 		}
 		else if (solArray.join('') == answerArrayC.join('')){
-		console.log("Eingabe ist richtig!");
 		$scope.ans_right = true;
 		$scope.ans_wrong = false;
 		}
 		else if (solArray.join('') == answerArrayR4.join('')){
-		console.log("Eingabe ist richtig!");
 		$scope.ans_right = true;
 		$scope.ans_wrong = false;
 		}
 		else {
-		console.log("Eingabe ist falsch!");
 		$scope.ans_wrong = true;
 		$scope.ans_right = false;
 		}

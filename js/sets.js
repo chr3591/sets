@@ -16,7 +16,6 @@ function getElements(){
 	toggle_r6.toggleStatus = "on";
 	toggle_r7.toggleStatus = "on";
 	r1.addEventListener('click', function(){
-		console.log("M1 wurde geklickt")
 		  switch(toggle_r1.toggleStatus){
 			case "on":
 			  toggle_r1.toggleStatus="off";
@@ -33,7 +32,6 @@ function getElements(){
 		  }
 	});
 	r2.addEventListener('click', function(){
-		console.log("M2 wurde geklickt")
 		  switch(toggle_r2.toggleStatus){
 			case "on":
 			  toggle_r2.toggleStatus="off";
@@ -50,7 +48,6 @@ function getElements(){
 		  }
 	});
 	r3.addEventListener('click', function(){
-		console.log("M3 wurde geklickt")
 		  switch(toggle_r3.toggleStatus){
 			case "on":
 			  toggle_r3.toggleStatus="off";
@@ -67,7 +64,6 @@ function getElements(){
 		  }
 	});	
 	r4.addEventListener('click', function(){
-		console.log("M4 wurde geklickt")
 		  switch(toggle_r4.toggleStatus){
 			case "on":
 			  toggle_r4.toggleStatus="off";
@@ -84,7 +80,6 @@ function getElements(){
 		  }
 	});
 	r5.addEventListener('click', function(){
-		console.log("M5 wurde geklickt")
 		  switch(toggle_r5.toggleStatus){
 			case "on":
 			  toggle_r5.toggleStatus="off";
@@ -101,7 +96,6 @@ function getElements(){
 		  }
 	});
 	r6.addEventListener('click', function(){
-		console.log("M6 wurde geklickt")
 		  switch(toggle_r6.toggleStatus){
 			case "on":
 			  toggle_r6.toggleStatus="off";
@@ -118,8 +112,7 @@ function getElements(){
 		  }
 	});
 	r7.addEventListener('click', function(){
-		console.log("M7 wurde geklickt")
-		  switch(toggle_r7.toggleStatus){
+		 switch(toggle_r7.toggleStatus){
 			case "on":
 			  toggle_r7.toggleStatus="off";
 			  toggle_r7.style.fill = "orange";
@@ -185,8 +178,7 @@ function getElements(){
 	toggle_4r15.toggleStatus = "on";
 	
 	r4_1.addEventListener('click', function(){
-		console.log("M1 wurde geklickt")
-		  switch(toggle_4r1.toggleStatus){
+		switch(toggle_4r1.toggleStatus){
 			case "on":
 			  toggle_4r1.toggleStatus="off";
 			  toggle_4r1.style.fill = "orange";
@@ -202,8 +194,7 @@ function getElements(){
 		  }
 	});
 	r4_2.addEventListener('click', function(){
-		console.log("M2 wurde geklickt")
-		  switch(toggle_4r2.toggleStatus){
+		switch(toggle_4r2.toggleStatus){
 			case "on":
 			  toggle_4r2.toggleStatus="off";
 			  toggle_4r2.style.fill = "orange";
@@ -219,8 +210,7 @@ function getElements(){
 		  }
 	});
 	r4_3.addEventListener('click', function(){
-		console.log("M3 wurde geklickt")
-		  switch(toggle_4r3.toggleStatus){
+		switch(toggle_4r3.toggleStatus){
 			case "on":
 			  toggle_4r3.toggleStatus="off";
 			  toggle_4r3.style.fill = "orange";
@@ -236,8 +226,7 @@ function getElements(){
 		  }
 	});
 	r4_4.addEventListener('click', function(){
-		console.log("M4 wurde geklickt")
-		  switch(toggle_4r4.toggleStatus){
+		switch(toggle_4r4.toggleStatus){
 			case "on":
 			  toggle_4r4.toggleStatus="off";
 			  toggle_4r4.style.fill = "orange";
@@ -253,8 +242,7 @@ function getElements(){
 		  }
 	});
 	r4_5.addEventListener('click', function(){
-		console.log("M5 wurde geklickt")
-		  switch(toggle_4r5.toggleStatus){
+		switch(toggle_4r5.toggleStatus){
 			case "on":
 			  toggle_4r5.toggleStatus="off";
 			  toggle_4r5.style.fill = "orange";
@@ -270,8 +258,7 @@ function getElements(){
 		  }
 	});
 	r4_6.addEventListener('click', function(){
-		console.log("M6 wurde geklickt")
-		  switch(toggle_4r6.toggleStatus){
+		switch(toggle_4r6.toggleStatus){
 			case "on":
 			  toggle_4r6.toggleStatus="off";
 			  toggle_4r6.style.fill = "orange";
@@ -287,8 +274,7 @@ function getElements(){
 		  }
 	});
 	r4_7.addEventListener('click', function(){
-		console.log("M7 wurde geklickt")
-		  switch(toggle_4r7.toggleStatus){
+		switch(toggle_4r7.toggleStatus){
 			case "on":
 			  toggle_4r7.toggleStatus="off";
 			  toggle_4r7.style.fill = "orange";
@@ -304,8 +290,7 @@ function getElements(){
 		  }
 	});
 	r4_8.addEventListener('click', function(){
-		console.log("M8 wurde geklickt")
-		  switch(toggle_4r8.toggleStatus){
+		switch(toggle_4r8.toggleStatus){
 			case "on":
 			  toggle_4r8.toggleStatus="off";
 			  toggle_4r8.style.fill = "orange";
@@ -321,8 +306,7 @@ function getElements(){
 		  }
 	});
 	r4_9.addEventListener('click', function(){
-		console.log("M9 wurde geklickt")
-		  switch(toggle_4r9.toggleStatus){
+		switch(toggle_4r9.toggleStatus){
 			case "on":
 			  toggle_4r9.toggleStatus="off";
 			  toggle_4r9.style.fill = "orange";
@@ -338,8 +322,7 @@ function getElements(){
 		  }
 	});
 	r4_10.addEventListener('click', function(){
-		console.log("M10 wurde geklickt")
-		  switch(toggle_4r10.toggleStatus){
+		switch(toggle_4r10.toggleStatus){
 			case "on":
 			  toggle_4r10.toggleStatus="off";
 			  toggle_4r10.style.fill = "orange";
@@ -355,8 +338,7 @@ function getElements(){
 		  }
 	});
 	r4_11.addEventListener('click', function(){
-		console.log("M11 wurde geklickt")
-		  switch(toggle_4r11.toggleStatus){
+		switch(toggle_4r11.toggleStatus){
 			case "on":
 			  toggle_4r11.toggleStatus="off";
 			  toggle_4r11.style.fill = "orange";
@@ -372,8 +354,7 @@ function getElements(){
 		  }
 	});
 	r4_12.addEventListener('click', function(){
-		console.log("M12 wurde geklickt")
-		  switch(toggle_4r12.toggleStatus){
+		switch(toggle_4r12.toggleStatus){
 			case "on":
 			  toggle_4r12.toggleStatus="off";
 			  toggle_4r12.style.fill = "orange";
@@ -389,8 +370,7 @@ function getElements(){
 		  }
 	});
 	r4_13.addEventListener('click', function(){
-		console.log("M13 wurde geklickt")
-		  switch(toggle_4r13.toggleStatus){
+		switch(toggle_4r13.toggleStatus){
 			case "on":
 			  toggle_4r13.toggleStatus="off";
 			  toggle_4r13.style.fill = "orange";
@@ -406,8 +386,7 @@ function getElements(){
 		  }
 	});
 	r4_14.addEventListener('click', function(){
-		console.log("M14 wurde geklickt")
-		  switch(toggle_4r14.toggleStatus){
+		switch(toggle_4r14.toggleStatus){
 			case "on":
 			  toggle_4r14.toggleStatus="off";
 			  toggle_4r14.style.fill = "orange";
@@ -423,8 +402,7 @@ function getElements(){
 		  }
 	});
 	r4_15.addEventListener('click', function(){
-		console.log("M15 wurde geklickt")
-		  switch(toggle_4r15.toggleStatus){
+		switch(toggle_4r15.toggleStatus){
 			case "on":
 			  toggle_4r15.toggleStatus="off";
 			  toggle_4r15.style.fill = "orange";
@@ -464,8 +442,7 @@ function getElements(){
 	var toggle_c7 = document.getElementsByClassName("c7")[0];
 	toggle_c7.toggleStatus = "on";
 	c1.addEventListener('click', function(){
-		console.log("M1 wurde geklickt")
-		  switch(toggle_c1.toggleStatus){
+		switch(toggle_c1.toggleStatus){
 			case "on":
 			  toggle_c1.toggleStatus="off";
 			  toggle_c1.style.fill = "orange";
@@ -481,8 +458,7 @@ function getElements(){
 		  }
 	});
 	c2.addEventListener('click', function(){
-		console.log("M2 wurde geklickt")
-		  switch(toggle_c2.toggleStatus){
+		switch(toggle_c2.toggleStatus){
 			case "on":
 			  toggle_c2.toggleStatus="off";
 			  toggle_c2.style.fill = "orange";
@@ -498,8 +474,7 @@ function getElements(){
 		  }
 	});
 	c3.addEventListener('click', function(){
-		console.log("M3 wurde geklickt")
-		  switch(toggle_c3.toggleStatus){
+		switch(toggle_c3.toggleStatus){
 			case "on":
 			  toggle_c3.toggleStatus="off";
 			  toggle_c3.style.fill = "orange";
@@ -515,8 +490,7 @@ function getElements(){
 		  }
 	});
 	c4.addEventListener('click', function(){
-		console.log("M4 wurde geklickt")
-		  switch(toggle_c4.toggleStatus){
+		switch(toggle_c4.toggleStatus){
 			case "on":
 			  toggle_c4.toggleStatus="off";
 			  toggle_c4.style.fill = "orange";
@@ -532,8 +506,7 @@ function getElements(){
 		  }
 	});
 	c5.addEventListener('click', function(){
-		console.log("M5 wurde geklickt")
-		  switch(toggle_c5.toggleStatus){
+		switch(toggle_c5.toggleStatus){
 			case "on":
 			  toggle_c5.toggleStatus="off";
 			  toggle_c5.style.fill = "orange";
@@ -549,8 +522,7 @@ function getElements(){
 		  }
 	});
 	c6.addEventListener('click', function(){
-		console.log("M6 wurde geklickt")
-		  switch(toggle_c6.toggleStatus){
+		switch(toggle_c6.toggleStatus){
 			case "on":
 			  toggle_c6.toggleStatus="off";
 			  toggle_c6.style.fill = "orange";
@@ -566,8 +538,7 @@ function getElements(){
 		  }
 	});
 	c7.addEventListener('click', function(){
-		console.log("M7 wurde geklickt")
-		  switch(toggle_c7.toggleStatus){
+		switch(toggle_c7.toggleStatus){
 			case "on":
 			  toggle_c7.toggleStatus="off";
 			  toggle_c7.style.fill = "orange";
@@ -587,8 +558,6 @@ function getElements(){
 		answerArrayR = [check_r1,check_r2,check_r3,check_r4,check_r5,check_r6,check_r7];
 		answerArrayR4 = [check_r1,check_r2,check_r3,check_r4,check_r5,check_r6,check_r7,check_r8,check_r9,check_r10,check_r11,check_r12,check_r13,check_r14,check_r15];
 		answerArrayC = [check_c1,check_c2,check_c3,check_c4,check_c5,check_c6,check_c7];
-		console.log ("Rect " + answerArrayR);
-		console.log ("Circ " + answerArrayC);
 		});
 }
 //
