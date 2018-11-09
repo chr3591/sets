@@ -1,0 +1,38 @@
+<div class="questions" ng-show="playing">
+	<div ng-show="!endOfQuiz">
+    	<h2 id="question">{{question}}</h2>
+		<ul id="choices">
+			<li ng-repeat="option in options">
+            <div class="input-group">
+				<label>
+					<input type="radio" name="choice" value="{{option}}">
+					{{option}}
+                    </input>
+				</label>
+            </div>
+			</li>
+		</ul>
+        <br />
+		<button ng-click="checkChoice()" ng-show="checkAnswer">Bestätigen</button>
+ 
+        <div ng-show="!checkAnswer">
+            <button ng-click="next()" class="next">Weiter</button>
+            <span ng-show="correctChoice">Richtige Antwort!</span>
+            <span ng-show="!correctChoice">Die Antwort war leider falsch! Du bekommst für diese Frage keinen Punkt :(</span>
+		</div>
+	</div>
+ 
+	<div ng-show="endOfQuiz">
+		<h3>Du hast das Quiz beendet</h3>
+		<button ng-click="quizReset()">Erneut spielen</button>
+	</div>
+ 
+	<div id="totalscore">
+    	Punktzahl: {{totalscore}}
+	</div>
+</div>
+
+<div class="intro" ng-show="!playing">
+	<p>Willkommen beim Mengenquiz</p>
+	<button id="start" ng-click="startQuiz()">Starte das Quiz</button>
+</div>

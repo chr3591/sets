@@ -1,0 +1,86 @@
+@charset "utf-8";
+body {
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Helvetica', 'Arial';
+}
+
+#logoTH {
+    width: 80px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+h1.diagram-title {
+  height:auto;
+  text-align:left;
+  font-size:28px;
+  padding: 0.5em 0.2em;
+}
+
+.diagram-title {
+  height: 30px;
+  padding-top: 8px;
+  background-color: #cedde9;
+  margin: 0px 0px 0px 0px;
+  font-size: 14px;
+  color: #505050;
+  font-weight: bold;
+  text-align: center;
+  width:100%;
+  vertical-align: middle;
+}
+
+h2 {
+	font-weight: normal;
+	font-size: 18px;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+button {
+  display:inline-block;
+  color: #333;
+  border:1px solid transparent;
+  background-color:#CCC;
+  font-weight:bold;
+  padding: 1em 0.6em;
+  margin-bottom:10px;
+}
+button:hover {
+  border-color: #e0e0e0;
+}
+button:active,
+button:focus {
+  border-color:#0267FF;
+}
+
+.questions {
+	width: 480px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+#choice {
+	margin: 10px 0;
+}
+
+.next{
+	margin-right: 10px;
+}
+
+#totalscore {
+	margin-top: 10px;
+	font-size: 18px;
+	font-weight: bold;
+}

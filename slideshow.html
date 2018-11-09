@@ -1,0 +1,14 @@
+<div class="tutorial">
+<div class="tut_image" ng-repeat="image in images" ng-show="image.visible">
+  <div class="image_text">{{image.name}}</div>
+  <div class="tut_button">
+    <a href="#" ng-click="previous_image()">
+      <img src="img/arrow_l.png" />
+    </a>
+    <a href="#" ng-click="next_image()">
+      <img src="img/arrow_r.png" />
+    </a>
+  </div>
+    <img ng-src="img/{{image.src}}" />
+  </div>
+</div>
